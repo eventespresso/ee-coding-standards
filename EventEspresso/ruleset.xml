@@ -63,4 +63,7 @@
         <exclude-pattern>*/index\.php</exclude-pattern>
     </rule>
 
+    <!-- Enforce PSR2  -->
+    <rule ref="PSR2"/>
+
 </ruleset>
