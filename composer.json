@@ -21,15 +21,15 @@
   "require": {
     "php": ">=5.4",
     "squizlabs/php_codesniffer": "^3.2.0",
-    "wimg/php-compatibility": "^8.1.0",
+    "wimg/php-compatibility": "^8.1.0"
   },
   "suggest" : {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3"
   },
   "scripts": {
     "config-set" : [
-      "\"vendor/bin/phpcs\" --config-set installed_paths ../../.., ../../../vendor/wimg/php-compatibility",
-      "\"vendor/bin/phpcs\" --config-set default_standard EventEspresso"
+      "vendor/bin/phpcs --config-set installed_paths ../../..,../../../vendor/wimg/php-compatibility",
+      "vendor/bin/phpcs --config-set default_standard EventEspresso"
     ],
     "post-install-cmd": "composer config-set",
     "post-update-cmd": "composer config-set"
