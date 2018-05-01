@@ -13,7 +13,7 @@ composer create-project eventespresso/ee-coding-standards:dev-master
 ```
 
 Composer will automatically install dependencies, register standards paths, and set default PHP Code Sniffer standard to `EventEspresso`.
-
+****
 ### As dependency
 
 To include standards as part of a project require them as development dependencies:
