@@ -67,9 +67,13 @@
     <exclude-pattern>wordpress-shims.php</exclude-pattern>
     <exclude-pattern>espresso-definitions.php</exclude-pattern>
     <exclude-pattern>bootstrap_espresso.php</exclude-pattern>
-    <exclude-pattern>EE_SPCO_JSON_Response.phpmo</exclude-pattern>
+    <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     <exclude-pattern>invoice_functions.php</exclude-pattern>
     <exclude-pattern>wp-assets/*</exclude-pattern>
+    <exclude-pattern>espresso_definitions.php</exclude-pattern>
+    <exclude-pattern>espresso.php</exclude-pattern>
+    <exclude-pattern>template_tags.php</exclude-pattern>
+    <exclude-pattern>Espresso_Arabica_2014/*</exclude-pattern>
 
     <!-- excluding legacy files from all sniffs by default -->
     <exclude-pattern>*.class.php</exclude-pattern>
