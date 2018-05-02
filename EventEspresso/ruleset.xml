@@ -10,6 +10,9 @@
     -->
     <config name="testVersion" value="5.5-99.0"/>
 
+    <!-- Enforce PSR2  -->
+    <rule ref="PSR2"/>
+
     <rule ref="WordPress.WP.I18n">
         <properties>
             <property name="text_domain" value="event_espresso" />
@@ -53,17 +56,68 @@
     #############################################################################
     -->
 
+    <exclude-pattern>tests/*</exclude-pattern>
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>languages/*</exclude-pattern>
+    <exclude-pattern>assets/*</exclude-pattern>
+    <exclude-pattern>bin/*</exclude-pattern>
+    <exclude-pattern>docs/*</exclude-pattern>
+    <exclude-pattern>eslint/*</exclude-pattern>
+    <exclude-pattern>acceptance_tests/*</exclude-pattern>
+    <exclude-pattern>brewing_regular.php</exclude-pattern>
+    <exclude-pattern>third_party_libs/</exclude-pattern>
+    <exclude-pattern>wordpress-shims.php</exclude-pattern>
+    <exclude-pattern>espresso-definitions.php</exclude-pattern>
+    <exclude-pattern>bootstrap_espresso.php</exclude-pattern>
+    <exclude-pattern>EE_SPCO_JSON_Response.phpmo</exclude-pattern>
+    <exclude-pattern>invoice_functions.php</exclude-pattern>
+    <exclude-pattern>wp-assets/*</exclude-pattern>
+
+    <!-- excluding legacy files from all sniffs by default -->
+    <exclude-pattern>*.class.php</exclude-pattern>
+    <exclude-pattern>*.template.php</exclude-pattern>
+    <exclude-pattern>*.core.php</exclude-pattern>
+    <exclude-pattern>*.module.php</exclude-pattern>
+    <exclude-pattern>*.lib.php</exclude-pattern>
+    <exclude-pattern>*.help_tab*</exclude-pattern>
+    <exclude-pattern>*.form.php</exclude-pattern>
+    <exclude-pattern>*.gateway.php</exclude-pattern>
+    <exclude-pattern>*.pm.php</exclude-pattern>
+    <exclude-pattern>*.dmsstage.php</exclude-pattern>
+    <exclude-pattern>*.dms.php</exclude-pattern>
+    <exclude-pattern>*.model.php</exclude-pattern>
+    <exclude-pattern>*/db_models/relations/*</exclude-pattern>
+    <exclude-pattern>*/db_models/fields/*</exclude-pattern>
+    <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
+    <exclude-pattern>*.strategy.php</exclude-pattern>
+    <exclude-pattern>*.helper.php</exclude-pattern>
+    <exclude-pattern>*.interface.php</exclude-pattern>
+    <exclude-pattern>libraries/messages/*</exclude-pattern>
+    <exclude-pattern>*.error.php</exclude-pattern>
+    <exclude-pattern>*.input.php</exclude-pattern>
+    <exclude-pattern>*.shortcode.php</exclude-pattern>
+    <exclude-pattern>*.widget.php</exclude-pattern>
+
+
+    <!-- include pattern for sniffs to over-rule earlier excludes -->
+    <rule ref="WordPress.WP.I18n">
+        <include-pattern>.</include-pattern>
+        <exclude-pattern>tests/*</exclude-pattern>
+        <exclude-pattern>vendor/*</exclude-pattern>
+        <exclude-pattern>node_modules/*</exclude-pattern>
+        <exclude-pattern>languages/*</exclude-pattern>
+    </rule>
+
     <!-- ##### Documentation Sniffs vs empty index files ##### -->
 
     <!-- Exclude the 'empty' index files from some documentation checks -->
-    <rule ref="Squiz.Commenting.FileComment">
-        <exclude-pattern>*/index\.php</exclude-pattern>
-    </rule>
     <rule ref="Squiz.Commenting.InlineComment.NoSpaceBefore">
         <exclude-pattern>*/index\.php</exclude-pattern>
     </rule>
 
-    <!-- Enforce PSR2  -->
-    <rule ref="PSR2"/>
-
+    <!-- Specific sniffs to exclude -->
+    <rule ref="Squiz">
+        <exclude name="Squiz.Commenting.FileComment.Missing" />
+    </rule>
 </ruleset>
