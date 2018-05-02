@@ -112,7 +112,7 @@
 
     <!-- include pattern for sniffs to over-rule earlier excludes -->
     <rule ref="WordPress.WP.I18n">
-        <include-pattern>.</include-pattern>
+        <include-pattern>./</include-pattern>
         <exclude-pattern>tests/*</exclude-pattern>
         <exclude-pattern>vendor/*</exclude-pattern>
         <exclude-pattern>node_modules/*</exclude-pattern>
