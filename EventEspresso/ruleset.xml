@@ -10,6 +10,11 @@
     -->
     <config name="testVersion" value="5.5-99.0"/>
 
+    <!-- Enforce PSR  -->
+    <rule ref="PSR2" />
+    <rule ref="PSR1" />
+    <rule ref="PSR0" />
+
     <rule ref="WordPress.WP.I18n">
         <properties>
             <property name="text_domain" value="event_espresso" />
@@ -44,6 +49,11 @@
         <properties>
             <property name="functionWhitelist" type="array" value="mysql_to_rfc3339"/>
         </properties>
+    </rule>
+
+    <!-- Change side effects to error -->
+    <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
+        <type>error</type>
     </rule>
 
 
@@ -120,7 +130,4 @@
     <!-- Specific sniffs to exclude -->
     <exclude name="Squiz.Commenting.FileComment.Missing" />
 
-
-    <!-- Enforce PSR2  -->
-    <rule ref="PSR2"/>
 </ruleset>
