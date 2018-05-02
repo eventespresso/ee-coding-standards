@@ -119,6 +119,23 @@
         <exclude-pattern>languages/*</exclude-pattern>
     </rule>
 
+
+    <!-- Event Espresso specific rulesets -->
+    <rule ref="Generic.Formatting.SpaceAfterCast"/>
+    <rule ref="Squiz.WhiteSpace.CastSpacing"/>
+    <rule ref="WordPress.WhiteSpace.CastStructureSpacing"/>
+    <rule ref="WordPress.Arrays.ArrayKeySpacingRestrictions"/>
+
+    <rule ref="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed">
+        <type>error</type>
+    </rule>
+    <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
+        <type>error</type>
+    </rule>
+    <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
+        <type>error</type>
+    </rule>
+
     <!-- ##### Documentation Sniffs vs empty index files ##### -->
 
     <!-- Exclude the 'empty' index files from some documentation checks -->
@@ -128,5 +145,6 @@
 
     <!-- Specific sniffs to exclude -->
     <exclude name="Squiz.Commenting.FileComment.Missing" />
+
 
 </ruleset>
