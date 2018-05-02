@@ -123,7 +123,6 @@
     <!-- Event Espresso specific rulesets -->
     <rule ref="Generic.Formatting.SpaceAfterCast"/>
     <rule ref="Squiz.WhiteSpace.CastSpacing"/>
-    <rule ref="WordPress.WhiteSpace.CastStructureSpacing"/>
     <rule ref="WordPress.Arrays.ArrayKeySpacingRestrictions"/>
 
     <rule ref="PSR2.ControlStructures.ElseIfDeclaration.NotAllowed">
