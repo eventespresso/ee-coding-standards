@@ -10,9 +10,6 @@
     -->
     <config name="testVersion" value="5.5-99.0"/>
 
-    <!-- Enforce PSR2  -->
-    <rule ref="PSR2"/>
-
     <rule ref="WordPress.WP.I18n">
         <properties>
             <property name="text_domain" value="event_espresso" />
@@ -120,4 +117,7 @@
     <rule ref="Squiz">
         <exclude name="Squiz.Commenting.FileComment.Missing" />
     </rule>
+
+    <!-- Enforce PSR2  -->
+    <rule ref="PSR2"/>
 </ruleset>
