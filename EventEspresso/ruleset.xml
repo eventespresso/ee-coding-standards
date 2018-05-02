@@ -114,9 +114,8 @@
     </rule>
 
     <!-- Specific sniffs to exclude -->
-    <rule ref="Squiz">
-        <exclude name="Squiz.Commenting.FileComment.Missing" />
-    </rule>
+    <exclude name="Squiz.Commenting.FileComment.Missing" />
+
 
     <!-- Enforce PSR2  -->
     <rule ref="PSR2"/>
