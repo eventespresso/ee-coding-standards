@@ -53,6 +53,7 @@
     <!-- Change side effects to error -->
     <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
         <type>error</type>
+        <exclude-pattern>bootstrap.php</exclude-pattern>
     </rule>
 
 
