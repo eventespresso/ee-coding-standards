@@ -109,6 +109,7 @@
     <exclude-pattern>*.input.php</exclude-pattern>
     <exclude-pattern>*.shortcode.php</exclude-pattern>
     <exclude-pattern>*.widget.php</exclude-pattern>
+    <exclude-pattern>*.class_extension.php</exclude-pattern>
 
 
     <!-- include pattern for sniffs to over-rule earlier excludes -->
