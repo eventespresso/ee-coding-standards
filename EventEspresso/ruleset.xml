@@ -68,7 +68,6 @@
     <exclude-pattern>acceptance_tests/*</exclude-pattern>
     <exclude-pattern>third_party_libs/</exclude-pattern>
     <exclude-pattern>wordpress-shims.php</exclude-pattern>
-    <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     <exclude-pattern>invoice_functions.php</exclude-pattern>
     <exclude-pattern>wp-assets/*</exclude-pattern>
     <exclude-pattern>espresso_definitions.php</exclude-pattern>
@@ -150,16 +149,19 @@
     <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
         <exclude-pattern>*_Config.php</exclude-pattern>
         <exclude-pattern>brewing_regular.php</exclude-pattern>
+        <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     </rule>
 
     <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
         <exclude-pattern>*_Config.php</exclude-pattern>
         <exclude-pattern>brewing_regular.php</exclude-pattern>
+        <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     </rule>
 
     <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
         <exclude-pattern>brewing_regular.php</exclude-pattern>
         <exclude-pattern>*_Config.php</exclude-pattern>
+        <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     </rule>
 
     <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
@@ -170,11 +172,13 @@
     <rule ref="PSR2.Methods.MethodDeclaration.Underscore">
         <exclude-pattern>*_Config.php</exclude-pattern>
         <exclude-pattern>brewing_regular.php</exclude-pattern>
+        <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     </rule>
 
     <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
         <exclude-pattern>*_Config.php</exclude-pattern>
         <exclude-pattern>brewing_regular.php</exclude-pattern>
+        <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     </rule>
 
     <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
@@ -183,7 +187,6 @@
         <exclude-pattern>bootstrap.php</exclude-pattern>
         <exclude-pattern>espresso_definitions.php</exclude-pattern>
         <exclude-pattern>bootstrap_espresso.php</exclude-pattern>
+        <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     </rule>
-
-
 </ruleset>
