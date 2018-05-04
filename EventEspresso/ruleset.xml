@@ -112,6 +112,7 @@
     <exclude-pattern>*.class_extension.php</exclude-pattern>
     <exclude-pattern>*.class_ext.php</exclude-pattern>
     <exclude-pattern>*.model_ext.php</exclude-pattern>
+    <exclude-pattern>*.model.ext.php</exclude-pattern>
 
 
     <!-- include pattern for sniffs to over-rule earlier excludes -->
