@@ -110,6 +110,7 @@
     <exclude-pattern>*.shortcode.php</exclude-pattern>
     <exclude-pattern>*.widget.php</exclude-pattern>
     <exclude-pattern>*.class_extension.php</exclude-pattern>
+    <exclude-pattern>*.class_ext.php</exclude-pattern>
     <exclude-pattern>*.model_ext.php</exclude-pattern>
 
 
