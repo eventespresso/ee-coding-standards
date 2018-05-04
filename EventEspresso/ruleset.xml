@@ -68,7 +68,6 @@
     <exclude-pattern>acceptance_tests/*</exclude-pattern>
     <exclude-pattern>third_party_libs/</exclude-pattern>
     <exclude-pattern>wordpress-shims.php</exclude-pattern>
-    <exclude-pattern>espresso-definitions.php</exclude-pattern>
     <exclude-pattern>bootstrap_espresso.php</exclude-pattern>
     <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
     <exclude-pattern>invoice_functions.php</exclude-pattern>
@@ -183,6 +182,7 @@
         <type>error</type>
         <exclude-pattern>brewing_regular.php</exclude-pattern>
         <exclude-pattern>bootstrap.php</exclude-pattern>
+        <exclude-pattern>espresso_definitions.php</exclude-pattern>
     </rule>
 
 
