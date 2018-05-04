@@ -72,7 +72,6 @@
     <exclude-pattern>docs/*</exclude-pattern>
     <exclude-pattern>eslint/*</exclude-pattern>
     <exclude-pattern>acceptance_tests/*</exclude-pattern>
-    <exclude-pattern>brewing_regular.php</exclude-pattern>
     <exclude-pattern>third_party_libs/</exclude-pattern>
     <exclude-pattern>wordpress-shims.php</exclude-pattern>
     <exclude-pattern>espresso-definitions.php</exclude-pattern>
