@@ -8,6 +8,7 @@
     Exclude a few select errorcodes for things back-filled by WP Core.
     #############################################################################
     -->
+    <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/php-compatibility" />
     <config name="testVersion" value="5.5-99.0"/>
 
     <!-- Enforce PSR  -->
