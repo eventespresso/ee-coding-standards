@@ -30,7 +30,7 @@
   },
   "scripts": {
     "config-set": [
-      "vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs,vendor/wimg/php-compatibility",
+      "vendor/bin/phpcs --config-set installed_paths ../../eventespresso/ee-coding-standards, ../../wp-coding-standards/wpcs, ../../phpcompatibility/php-compatibility",
       "vendor/bin/phpcs --config-set default_standard EventEspresso"
     ],
     "post-install-cmd": "composer config-set",
