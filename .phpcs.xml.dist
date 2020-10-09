@@ -14,8 +14,8 @@
     <!-- Show progress, show the error codes for each message (source). -->
     <arg value="sp"/>
 
-    <!-- EventEspresso supports PHP 5.5 or higher. -->
-    <config name="testVersion" value="5.5-"/>
+    <!-- EventEspresso supports PHP 7.1 or higher. -->
+    <config name="testVersion" value="7.1-"/>
 
     <rule ref="EventEspresso">
         <!-- Conflicts with PHPCS autoloading of sniffs. -->

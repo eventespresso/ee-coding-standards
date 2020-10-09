@@ -9,7 +9,7 @@
     #############################################################################
     -->
     <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/php-compatibility" />
-    <config name="testVersion" value="5.5-99.0"/>
+    <config name="testVersion" value="7.1-"/>
 
     <!-- Enforce PSR  -->
     <rule ref="PSR2" />
