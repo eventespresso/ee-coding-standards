@@ -192,6 +192,7 @@
         <exclude-pattern>*.class_ext.php</exclude-pattern>
         <exclude-pattern>*.model_ext.php</exclude-pattern>
         <exclude-pattern>*.model.ext.php</exclude-pattern>
+        <exclude-pattern>EE_Mailchimp_Config_Api_Settings.php</exclude-pattern>
     </rule>
 
     <rule ref="PSR2.Classes.PropertyDeclaration.Underscore">
