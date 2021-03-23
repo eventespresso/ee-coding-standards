@@ -12,8 +12,7 @@
     <config name="testVersion" value="7.1-"/>
 
     <!-- Enforce PSR  -->
-    <rule ref="PSR2" />
-    <rule ref="PSR1" />
+    <rule ref="PSR12" />
 
     <rule ref="WordPress.WP.I18n">
         <properties>
