@@ -22,7 +22,7 @@
         <exclude name="EventEspresso.Files.FileName"/>
     </rule>
 
-    <!-- Enforce PSR2  -->
-    <rule ref="PSR2"/>
+    <!-- Enforce PSR12  -->
+    <rule ref="PSR12"/>
 
 </ruleset>
