@@ -13,7 +13,7 @@
 
     <!-- Enforce PSR  -->
     <rule ref="PSR12">
-        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
+        <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
     </rule>
 
     <rule ref="WordPress.WP.I18n">
