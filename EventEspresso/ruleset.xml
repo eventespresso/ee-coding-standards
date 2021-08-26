@@ -11,6 +11,17 @@
     <config name="installed_paths" value="vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/php-compatibility" />
     <config name="testVersion" value="7.1-"/>
 
+    <!-- Tabs should represent 4 spaces. -->
+    <arg name="tab-width" value="4"/>
+
+    <rule ref="Generic.WhiteSpace.ScopeIndent">
+        <properties>
+            <property name="indent" value="4"/>
+            <property name="tabIndent" value="false"/>
+        </properties>
+        <exclude name="Generic.WhiteSpace.ScopeIndent.Incorrect"/>
+    </rule>
+
     <!-- Enforce PSR  -->
     <rule ref="PSR12">
         <exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace" />
