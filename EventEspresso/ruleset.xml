@@ -200,6 +200,7 @@
         <exclude-pattern>EE_Country_Select_Input.php</exclude-pattern>
         <exclude-pattern>EE_Datepicker_Input.php</exclude-pattern>
         <exclude-pattern>EE_State_Select_Input.php</exclude-pattern>
+        <exclude-pattern>EE_Locale_Select_Input.php</exclude-pattern>
         <exclude-pattern>*\.shortcode.php</exclude-pattern>
         <exclude-pattern>*\.widget.php</exclude-pattern>
         <exclude-pattern>*.class_extension.php</exclude-pattern>
