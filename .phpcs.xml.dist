@@ -1,28 +1,22 @@
 <?xml version="1.0"?>
 <ruleset name="EventEspresso Coding Standard">
-    <description>The Coding standard for the Event Espresso Coding Standard itself.</description>
-
-    <!-- Scan all files. -->
-    <file>.</file>
-
-    <!-- Exclude Composer vendor directory. -->
-    <exclude-pattern>*/vendor/*</exclude-pattern>
-
-    <!-- Only check PHP files. -->
-    <arg name="extensions" value="php"/>
-
-    <!-- Show progress, show the error codes for each message (source). -->
-    <arg value="sp"/>
-
-    <!-- EventEspresso supports PHP 7.1 or higher. -->
-    <config name="testVersion" value="7.1-"/>
-
-    <rule ref="EventEspresso">
-        <!-- Conflicts with PHPCS autoloading of sniffs. -->
-        <exclude name="EventEspresso.Files.FileName"/>
-    </rule>
-
-    <!-- Enforce PSR12  -->
-    <rule ref="PSR12"/>
-
+        <description>The Coding standard for the Event Espresso Coding Standard itself.</description>
+        <!-- Scan all files. -->
+        <file>.</file>
+        <!-- Exclude Composer vendor directory. -->
+        <exclude-pattern>*/vendor/*</exclude-pattern>
+        <!-- Only check PHP files. -->
+        <arg name="extensions"
+                value="php" />
+        <!-- Show progress, show the error codes for each message (source). -->
+        <arg value="sp" />
+        <!-- EventEspresso supports PHP 7.1 or higher. -->
+        <config name="testVersion"
+                value="7.4-" />
+        <rule ref="EventEspresso">
+                <!-- Conflicts with PHPCS autoloading of sniffs. -->
+                <exclude name="EventEspresso.Files.FileName" />
+        </rule>
+        <!-- Enforce PSR12  -->
+        <rule ref="PSR12" />
 </ruleset>
