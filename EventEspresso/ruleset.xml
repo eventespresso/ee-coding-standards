@@ -67,12 +67,12 @@
         <exclude-pattern>eslint/*</exclude-pattern>
         <exclude-pattern>acceptance_tests/*</exclude-pattern>
         <exclude-pattern>third_party_libs/</exclude-pattern>
-        <exclude-pattern>wordpress-shims.php</exclude-pattern>
-        <exclude-pattern>invoice_functions.php</exclude-pattern>
+        <exclude-pattern>wordpress-shims\.php</exclude-pattern>
+        <exclude-pattern>invoice_functions\.php</exclude-pattern>
         <exclude-pattern>wp-assets/*</exclude-pattern>
-        <exclude-pattern>template_tags.php</exclude-pattern>
+        <exclude-pattern>template_tags\.php</exclude-pattern>
         <exclude-pattern>Espresso_Arabica_2014/*</exclude-pattern>
-        <exclude-pattern>EE_Deprecated.core.php</exclude-pattern>
+        <exclude-pattern>EE_Deprecated.core\.php</exclude-pattern>
         <!-- Event Espresso specific rulesets -->
         <rule ref="Generic.Formatting.SpaceAfterCast" />
         <!-- Warn about lines longer than 120 chars, and never error. -->
@@ -110,298 +110,302 @@
         <rule ref="Generic.NamingConventions.UpperCaseConstantName.ClassConstantNotUpperCase">
                 <exclude-pattern>plugins/eep-paygov/tcs_online_service</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main</exclude-pattern>
-                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller.php</exclude-pattern>
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller\.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
         </rule>
         <rule ref="Generic.NamingConventions.UpperCaseConstantName.ConstantNotUpperCase">
-                <exclude-pattern>plugins/saas-solution/core/plugin-specific-mods/EE_Payment_Method_Mods.class.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-solution/core/plugin-specific-mods/EE_Payment_Method_Mods.class\.php</exclude-pattern>
         </rule>
         <rule ref="PEAR.Functions.ValidDefaultValue.NotAtEnd">
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>NoticesContainerInterface.php</exclude-pattern>
-                <exclude-pattern>SequentialStepForm.php</exclude-pattern>
-                <exclude-pattern>SettingsForm.php</exclude-pattern>
-                <exclude-pattern>EE_Message_Generated_From_Token.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>NoticesContainerInterface\.php</exclude-pattern>
+                <exclude-pattern>SequentialStepForm\.php</exclude-pattern>
+                <exclude-pattern>SettingsForm\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_Generated_From_Token\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
         </rule>
         <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
                 <exclude-pattern>plugins/eea-beaver-builder</exclude-pattern>
-                <exclude-pattern>plugins/eea-events-table-template/EE_Events_Table_Template_Query.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-infusionsoft/isdk.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/EE_Event_Cart_Line_Item_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_List_Line_Item_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_Table_Line_Item_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multisite/core/libraries/Spyc.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-events-table-template/EE_Events_Table_Template_Query\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-infusionsoft/isdk\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/EE_Event_Cart_Line_Item_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_List_Line_Item_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_Table_Line_Item_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multisite/core/libraries/Spyc\.php</exclude-pattern>
                 <exclude-pattern>plugins/eea-promotions/admin/promotions/PromotionsDatepicker.ph</exclude-pattern>
-                <exclude-pattern>plugins/eep-braintree/payment_methods/Braintree_Dropin/forms/BraintreeDropinBillingForm.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-braintree/payment_methods/Braintree_Dropin/forms/BraintreeDropinBillingForm\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-braintree/includes</exclude-pattern>
                 <exclude-pattern>plugins/eep-chase-orbital/payment_methods/Chase_Orbital/lib</exclude-pattern>
-                <exclude-pattern>plugins/*/payment_methods/*/EE_*_Billing_Form.php</exclude-pattern>
+                <exclude-pattern>plugins/*/payment_methods/*/EE_*_Billing_Form\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-mollie-ideal/api_src</exclude-pattern>
                 <exclude-pattern>plugins/eep-transfirst/payment_methods/TransFirst_Onsite/lib</exclude-pattern>
-                <exclude-pattern>plugins/saas-mandrill-fix/rse-mandrill-fix.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-mixpanel-delete-old-profiles/MixpanelDeleteOldProfiles.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-mandrill-fix/rse-mandrill-fix\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-mixpanel-delete-old-profiles/MixpanelDeleteOldProfiles\.php</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/libraries</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main/business</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/connectors</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main</exclude-pattern>
-                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-solution/core/plugin-specific-mods/EeCoreEventEditor.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>*_Config.php</exclude-pattern>
-                <exclude-pattern>brewing_regular.php</exclude-pattern>
-                <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-solution/core/plugin-specific-mods/EeCoreEventEditor\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>*_Config\.php</exclude-pattern>
+                <exclude-pattern>brewing_regular\.php</exclude-pattern>
+                <exclude-pattern>EE_SPCO_JSON_Response\.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*\.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>EE_Number_Input_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>EE_Message_Generated_From_Token.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Queue.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Request.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>EE_Integer_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Button_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Country_Select_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Datepicker_Input.php</exclude-pattern>
-                <exclude-pattern>EE_State_Select_Input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
-                <exclude-pattern>EE_Mailchimp_Config_Api_Settings.php</exclude-pattern>
-                <exclude-pattern>EE_Multisite_Migration_Manager.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>EE_Number_Input_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_Generated_From_Token\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Queue\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Request\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>EE_Integer_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Button_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Country_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Datepicker_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_State_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
+                <exclude-pattern>EE_Mailchimp_Config_Api_Settings\.php</exclude-pattern>
+                <exclude-pattern>EE_Multisite_Migration_Manager\.php</exclude-pattern>
         </rule>
         <rule ref="PHPCompatibility.FunctionUse.ArgumentFunctionsReportCurrentValue.Changed">
                 <exclude-pattern>plugins/eep-stripe/includes</exclude-pattern>
         </rule>
         <rule ref="PSR1.Classes.ClassDeclaration.MultipleClasses">
-                <exclude-pattern>plugins/eea-calendar/EE_Calendar_Config.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-calendar-table-template/EES_Espresso_Calendar_Table_Template.shortcode.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-category-accordian-template/EES_Espresso_Category_Accordion_Template.shortcode.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-events-grid-template/EES_Espresso_Grid_Template.shortcode.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-infusionsoft/admin/infusionsoft/Infusionsoft_Admin_Page_Init.core.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-calendar/EE_Calendar_Config\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-calendar-table-template/EES_Espresso_Calendar_Table_Template.shortcode\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-category-accordian-template/EES_Espresso_Category_Accordion_Template.shortcode\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-events-grid-template/EES_Espresso_Grid_Template.shortcode\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-infusionsoft/admin/infusionsoft/Infusionsoft_Admin_Page_Init.core\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-chase-orbital/payment_methods/Chase_Orbital/lib</exclude-pattern>
-                <exclude-pattern>plugins/eep-quickbooks/includes/oauth_simple/OAuthSimple.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-quickbooks/includes/oauth_simple/OAuthSimple\.php</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/libraries</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>EE_Register_CPTs.core.php</exclude-pattern>
-                <exclude-pattern>EE_Admin_Page_Menu_Map.core.php</exclude-pattern>
-                <exclude-pattern>EE_Network_Config.core.php</exclude-pattern>
-                <exclude-pattern>EE_Capabilities.core.php</exclude-pattern>
-                <exclude-pattern>EE_Config.core.php</exclude-pattern>
-                <exclude-pattern>EE_Qtip_Config.lib.php</exclude-pattern>
-                <exclude-pattern>EEG_Aim.gateway.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>EE_Register_CPTs.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Admin_Page_Menu_Map.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Network_Config.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Capabilities.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Config.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Qtip_Config.lib\.php</exclude-pattern>
+                <exclude-pattern>EEG_Aim.gateway\.php</exclude-pattern>
         </rule>
         <rule ref="PSR1.Files.SideEffects.FoundWithSymbols">
                 <type>error</type>
-                <exclude-pattern>plugins/eea-attendee-mover/eea-attendee-mover.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-auto-event-notifications/eea-automated-upcoming-event-notification.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-barcode-scanner/espresso-barcode-scanner.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-attendee-mover/eea-attendee-mover\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-auto-event-notifications/eea-automated-upcoming-event-notification\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-barcode-scanner/espresso-barcode-scanner\.php</exclude-pattern>
                 <exclude-pattern>plugins/eea-beaver-builder</exclude-pattern>
-                <exclude-pattern>plugins/eea-buddypress/espresso-buddypress.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-calendar/espresso_calendar.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-calendar-table-template/EES_Espresso_Calendar_Table_Template.shortcode.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-calendar-table-template/EE_Calendar_Table_Template.class.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-category-accordian-template/EES_Espresso_Category_Accordion_Template.shortcode.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-category-accordian-template/EE_Category_Accordion_Template.class.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-custom-csv-importer/eea-custom-csv-importer.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-event-app-customization/eea-event-app-customization.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-events-blog/eea-events-blog.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-importer/eea-importer.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-infusionsoft/espresso-infusionsoft.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-mailchimp/ee4-mailchimp.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/eea-multi-event-registration.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multisite/eea-multisite.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multisite/core/libraries/Spyc.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-people/eea-people-addon.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-promotions/eea-promotions.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-recurring-events-manager/eea-recurring-events-manager.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-registration-answers/eea-registration-answers.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-rest-api-client/eea-rest-api-client.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-single-event-layout-1/eea-single-event-layout-1.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-social-buttons/eea-events-social-sharing.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-ticketing/eea-ticketing.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-utf8-message-template-variations/eea-utf8-variation.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-wait-lists/eea-wait-lists.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-worker-queue-manager/eea-worker-queue-manager.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-wp-user-integration/eea-wpuser-integration.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-authnet-accept/eea-authnet-accept.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-authnet-echeck/eea-aim-echeck.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-authnet-sim/eea-authorize-net-sim.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-buddypress/espresso-buddypress\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-calendar/espresso_calendar\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-calendar-table-template/EES_Espresso_Calendar_Table_Template.shortcode\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-calendar-table-template/EE_Calendar_Table_Template.class\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-category-accordian-template/espresso-category-accordion-template\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-category-accordian-template/EES_Espresso_Category_Accordion_Template.shortcode\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-category-accordian-template/EE_Category_Accordion_Template.class\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-custom-csv-importer/eea-custom-csv-importer\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-event-app-customization/eea-event-app-customization\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-events-blog/eea-events-blog\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-events-grid-template/espresso-grid-template\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-calendar-table-template/espresso-calendar-table-template\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-events-table-template/espresso-events-table-template\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-importer/eea-importer\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-infusionsoft/espresso-infusionsoft\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-mailchimp/ee4-mailchimp\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/eea-multi-event-registration\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multisite/eea-multisite\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multisite/core/libraries/Spyc\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-people/eea-people-addon\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-promotions/eea-promotions\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-recurring-events-manager/eea-recurring-events-manager\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-registration-answers/eea-registration-answers\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-rest-api-client/eea-rest-api-client\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-single-event-layout-1/eea-single-event-layout-1\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-social-buttons/eea-events-social-sharing\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-ticketing/eea-ticketing\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-utf8-message-template-variations/eea-utf8-variation\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-wait-lists/eea-wait-lists\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-worker-queue-manager/eea-worker-queue-manager\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-wp-user-integration/eea-wpuser-integration\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-authnet-accept/eea-authnet-accept\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-authnet-echeck/eea-aim-echeck\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-authnet-sim/eea-authorize-net-sim\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-braintree</exclude-pattern>
-                <exclude-pattern>plugins/eep-braintree-marketplace/eea-braintree-marketplace.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-braintree-marketplace-management/eea-braintree-marketplace-management.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-chase-orbital/eea-chase-orbital.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-braintree-marketplace/eea-braintree-marketplace\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-braintree-marketplace-management/eea-braintree-marketplace-management\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-chase-orbital/eea-chase-orbital\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-chase-orbital/payment_methods/Chase_Orbital/lib</exclude-pattern>
-                <exclude-pattern>plugins/eep-cybersource/eea-cybersource-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-evertec/eea-evertec.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-firstdata-payeezy/eea-payeezy.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-flexible-payment-method/eea-flexible-payment-method.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-ipay88/eea-ipay88-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-master-card-payment-gateway-service/eea-migs-payment-method.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-mollie-ideal/eea-ideal-mollie-gateway.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-cybersource/eea-cybersource-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-evertec/eea-evertec\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-firstdata-payeezy/eea-payeezy\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-flexible-payment-method/eea-flexible-payment-method\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-ipay88/eea-ipay88-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-master-card-payment-gateway-service/eea-migs-payment-method\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-mollie-ideal/eea-ideal-mollie-gateway\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-mollie-ideal/api_src</exclude-pattern>
-                <exclude-pattern>plugins/eep-omise/eea-omise-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-paygov/eea-paygov-gateway.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-omise/eea-omise-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-paygov/eea-paygov-gateway\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-paygov/tcs_online_service</exclude-pattern>
-                <exclude-pattern>plugins/eep-payment-methods-pro/eea-payment-methods-pro.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-paypal-payflow-pro/eea-payflow-pro-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-paypal-smart-buttons/eea-paypal-smart-buttons.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-quickbooks/eea-quickbooks-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-sage-pay/eea-sage-pay-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-square/eea-square-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-stripe/eea-stripe-gateway.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-transfirst/espresso-transfirst.php</exclude-pattern>
-                <exclude-pattern>plugins/eep-vanco/eea-vanco-payment-method.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-ads/saas-ads.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-barista-tester/es-barista-tester.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-ee-enable-all-countries/ee-enable-all-countries.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-gravityforms-labels-filter/gravityforms-labels-filter.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-intl-venue-address-filter/ee_saas_intl_venue_address_filter.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-mandrill-fix/rse-mandrill-fix.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-mixpanel/mixpanel.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-mixpanel-delete-old-profiles/mixpanel-delete-old-profiles.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-notification/saas-notification.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-post-featured-font-icon-es/post-featured-font-icon.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-product-management/pue-product-management.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-rate-limiting/saas-rate-limiting.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-segment/espresso-segment.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-solution/espresso-saas-solution.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-solution-subscription-management/ee-saas-solution-subscription-product-management.php</exclude-pattern>
-                <exclude-pattern>plugins/saas-whitelabeler/espresso-whitelabeler.php</exclude-pattern>
-                <exclude-pattern>plugins/wp-api-pretty-json/wp-api-pretty-json.php</exclude-pattern>
-                <exclude-pattern>plugins/wp-api-remove-auth-header/wp-api-remove-auth-header.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_8.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_6.php</exclude-pattern>
-                <exclude-pattern>espresso.php</exclude-pattern>
-                <exclude-pattern>brewing_regular.php</exclude-pattern>
-                <exclude-pattern>espresso_definitions.php</exclude-pattern>
-                <exclude-pattern>bootstrap_espresso.php</exclude-pattern>
-                <exclude-pattern>EE_Registration_Processor.class.php</exclude-pattern>
-                <exclude-pattern>EE_Transaction_Processor.class.php</exclude-pattern>
-                <exclude-pattern>EE_Payment_Processor.core.php</exclude-pattern>
-                <exclude-pattern>EE_Error.core.php</exclude-pattern>
-                <exclude-pattern>EE_Admin_List_Table.core.php</exclude-pattern>
-                <exclude-pattern>*.template.php</exclude-pattern>
-                <exclude-pattern>EE_PMT_Base.lib.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-payment-methods-pro/eea-payment-methods-pro\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-paypal-payflow-pro/eea-payflow-pro-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-paypal-smart-buttons/eea-paypal-smart-buttons\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-quickbooks/eea-quickbooks-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-sage-pay/eea-sage-pay-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-square/eea-square-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-stripe/eea-stripe-gateway\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-transfirst/espresso-transfirst\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-vanco/eea-vanco-payment-method\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-ads/saas-ads\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-barista-tester/es-barista-tester\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-ee-enable-all-countries/ee-enable-all-countries\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-gravityforms-labels-filter/gravityforms-labels-filter\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-intl-venue-address-filter/ee_saas_intl_venue_address_filter\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-mandrill-fix/rse-mandrill-fix\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-mixpanel/mixpanel\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-mixpanel-delete-old-profiles/mixpanel-delete-old-profiles\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-notification/saas-notification\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-post-featured-font-icon-es/post-featured-font-icon\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-product-management/pue-product-management\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-rate-limiting/saas-rate-limiting\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-segment/espresso-segment\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-solution/espresso-saas-solution\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-solution-subscription-management/ee-saas-solution-subscription-product-management\.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-whitelabeler/espresso-whitelabeler\.php</exclude-pattern>
+                <exclude-pattern>plugins/wp-api-pretty-json/wp-api-pretty-json\.php</exclude-pattern>
+                <exclude-pattern>plugins/wp-api-remove-auth-header/wp-api-remove-auth-header\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_8\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_6\.php</exclude-pattern>
+                <exclude-pattern>espresso\.php</exclude-pattern>
+                <exclude-pattern>brewing_regular\.php</exclude-pattern>
+                <exclude-pattern>espresso_definitions\.php</exclude-pattern>
+                <exclude-pattern>bootstrap_espresso\.php</exclude-pattern>
+                <exclude-pattern>EE_Registration_Processor.class\.php</exclude-pattern>
+                <exclude-pattern>EE_Transaction_Processor.class\.php</exclude-pattern>
+                <exclude-pattern>EE_Payment_Processor.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Error.core\.php</exclude-pattern>
+                <exclude-pattern>EE_Admin_List_Table.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>EE_PMT_Base.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
         </rule>
         <rule ref="PSR1.Methods.CamelCapsMethodName.NotCamelCaps">
-                <exclude-pattern>plugins/eea-infusionsoft/isdk.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>*_Config.php</exclude-pattern>
-                <exclude-pattern>brewing_regular.php</exclude-pattern>
-                <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-infusionsoft/isdk\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>*_Config\.php</exclude-pattern>
+                <exclude-pattern>brewing_regular\.php</exclude-pattern>
+                <exclude-pattern>EE_SPCO_JSON_Response\.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*\.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>JobHandlerInterface.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>JobHandlerInterface\.php</exclude-pattern>
                 <exclude-pattern>*/batch/JobHandlers/*</exclude-pattern>
-                <exclude-pattern>LegacyRequestInterface.php</exclude-pattern>
-                <exclude-pattern>EE_Message_Generated_From_Token.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Queue.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Request.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>EE_Button_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Country_Select_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Datepicker_Input.php</exclude-pattern>
-                <exclude-pattern>EE_State_Select_Input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
-                <exclude-pattern>EE_Multisite_Migration_Manager.php</exclude-pattern>
-                <exclude-pattern>MultisiteQueryer.php</exclude-pattern>
-                <exclude-pattern>MultisiteMigration.php</exclude-pattern>
+                <exclude-pattern>LegacyRequestInterface\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_Generated_From_Token\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Queue\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Request\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>EE_Button_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Country_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Datepicker_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_State_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
+                <exclude-pattern>EE_Multisite_Migration_Manager\.php</exclude-pattern>
+                <exclude-pattern>MultisiteQueryer\.php</exclude-pattern>
+                <exclude-pattern>MultisiteMigration\.php</exclude-pattern>
                 <exclude-pattern>EventSmart\Multisite\core\services\database\service\DbServiceJobHandler</exclude-pattern>
         </rule>
         <rule ref="PSR2.ControlStructures.SwitchDeclaration.WrongOpenercase">
@@ -415,47 +419,47 @@
                 <exclude-pattern>plugins/eep-chase-orbital/payment_methods/Chase_Orbital/lib</exclude-pattern>
                 <exclude-pattern>plugins/eep-mollie-ideal/api_src</exclude-pattern>
                 <exclude-pattern>plugins/eep-stripe/includes</exclude-pattern>
-                <exclude-pattern>plugins/saas-mandrill-fix/rse-mandrill-fix.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-mandrill-fix/rse-mandrill-fix\.php</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/libraries</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main/business</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/connectors</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>*_Config.php</exclude-pattern>
-                <exclude-pattern>brewing_regular.php</exclude-pattern>
-                <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>*_Config\.php</exclude-pattern>
+                <exclude-pattern>brewing_regular\.php</exclude-pattern>
+                <exclude-pattern>EE_SPCO_JSON_Response\.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*\.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>EE_Message_Generated_From_Token.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Queue.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Request.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>EE_Button_Input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
-                <exclude-pattern>EE_Multisite_Migration_Manager.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_Generated_From_Token\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Queue\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Request\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>EE_Button_Input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
+                <exclude-pattern>EE_Multisite_Migration_Manager\.php</exclude-pattern>
         </rule>
         <rule ref="PSR2.Classes.PropertyDeclaration.VarUsed">
                 <exclude-pattern>plugins/saas-product-management/libraries</exclude-pattern>
@@ -468,49 +472,55 @@
                 <exclude-pattern>plugins/saas-product-management/main/business</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/connectors</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main</exclude-pattern>
-                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>*_Config.php</exclude-pattern>
-                <exclude-pattern>brewing_regular.php</exclude-pattern>
-                <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-paypal-smart-buttons/payment_methods/Paypal_Smart_Buttons/forms/PayPalSmartButtonSettingsForm\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/services/payment_methods/forms/PayPalSettingsForm\.php</exclude-pattern>
+                <exclude-pattern>plugins/eep-transfirst/payment_methods/TransFirst_Onsite/lib/TransFirst/TransFirstWsdlClass\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-custom-csv-importer/core/forms/SubmissionForm\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-importer/src/domain/services/import/csv/attendees/forms/forms/MapCsvColumnsSubform\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-importer/src/domain/services/import/csv/attendees/forms/forms/UploadCsvForm\.php</exclude-pattern>
+                <exclude-pattern>*_Config\.php</exclude-pattern>
+                <exclude-pattern>brewing_regular\.php</exclude-pattern>
+                <exclude-pattern>EE_SPCO_JSON_Response\.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>EE_Message_Generated_From_Token.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Queue.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Request.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>EE_Button_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Country_Select_Input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
-                <exclude-pattern>EE_Multisite_Migration_Manager.php</exclude-pattern>
-                <exclude-pattern>MultisiteQueryer.php</exclude-pattern>
-                <exclude-pattern>MultisiteMigration.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_Generated_From_Token\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Queue\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Request\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>EE_Button_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Country_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
+                <exclude-pattern>EE_Multisite_Migration_Manager\.php</exclude-pattern>
+                <exclude-pattern>MultisiteQueryer\.php</exclude-pattern>
+                <exclude-pattern>MultisiteMigration\.php</exclude-pattern>
         </rule>
         <rule ref="PSR12.Files.FileHeader.HeaderPosition">
-                <exclude-pattern>plugins/eea-beaver-builder/admin/beaver_builder/*.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-beaver-builder/admin/beaver_builder/*\.php</exclude-pattern>
         </rule>
         <rule ref="PSR12.Traits.UseDeclaration.UseAfterBrace">
                 <exclude-pattern>plugins/eep-stripe/includes</exclude-pattern>
@@ -520,99 +530,99 @@
                 <exclude-pattern>plugins/saas-product-management/libraries</exclude-pattern>
         </rule>
         <rule ref="Squiz.Classes.ValidClassName.NotCamelCaps">
-                <exclude-pattern>plugins/eea-events-table-template/EE_Events_Table_Template_Query.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-infusionsoft/isdk.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/EE_Event_Cart_Line_Item_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_List_Line_Item_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_Table_Line_Item_Display_Strategy.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-events-table-template/EE_Events_Table_Template_Query\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-infusionsoft/isdk\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/EE_Event_Cart_Line_Item_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_List_Line_Item_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>plugins/eea-multi-event-registration/EE_Mini_Cart_Table_Line_Item_Display_Strategy\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-chase-orbital/payment_methods/Chase_Orbital/lib</exclude-pattern>
-                <exclude-pattern>plugins/*/payment_methods/*/EE_*_Billing_Form.php</exclude-pattern>
+                <exclude-pattern>plugins/*/payment_methods/*/EE_*_Billing_Form\.php</exclude-pattern>
                 <exclude-pattern>plugins/eep-mollie-ideal/api_src</exclude-pattern>
                 <exclude-pattern>plugins/eep-paygov/tcs_online_service</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/libraries</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main/business</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/connectors</exclude-pattern>
                 <exclude-pattern>plugins/saas-product-management/main</exclude-pattern>
-                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller.php</exclude-pattern>
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9.php</exclude-pattern>
-                <exclude-pattern>*_Config.php</exclude-pattern>
-                <exclude-pattern>brewing_regular.php</exclude-pattern>
-                <exclude-pattern>EE_SPCO_JSON_Response.php</exclude-pattern>
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>plugins/saas-product-management/PUE_PM_Controller\.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_9\.php</exclude-pattern>
+                <exclude-pattern>*_Config\.php</exclude-pattern>
+                <exclude-pattern>brewing_regular\.php</exclude-pattern>
+                <exclude-pattern>EE_SPCO_JSON_Response\.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*\.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>EE_Number_Input_Display_Strategy.php</exclude-pattern>
-                <exclude-pattern>EE_Message_Generated_From_Token.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Queue.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate_From_Request.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>EE_Integer_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Button_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Country_Select_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Datepicker_Input.php</exclude-pattern>
-                <exclude-pattern>EE_State_Select_Input.php</exclude-pattern>
-                <exclude-pattern>EE_Locale_Select_Input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
-                <exclude-pattern>EE_Mailchimp_Config_Api_Settings.php</exclude-pattern>
-                <exclude-pattern>EE_Multisite_Migration_Manager.php</exclude-pattern>
-                <exclude-pattern>MultisiteQueryer.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>EE_Number_Input_Display_Strategy\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_Generated_From_Token\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Queue\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate_From_Request\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>EE_Integer_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Button_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Country_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Datepicker_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_State_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>EE_Locale_Select_Input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
+                <exclude-pattern>EE_Mailchimp_Config_Api_Settings\.php</exclude-pattern>
+                <exclude-pattern>EE_Multisite_Migration_Manager\.php</exclude-pattern>
+                <exclude-pattern>MultisiteQueryer\.php</exclude-pattern>
         </rule>
         <rule ref="WordPress.WP.I18n.UnorderedPlaceholdersText">
-                <exclude-pattern>*.class.php</exclude-pattern>
-                <exclude-pattern>*.core.php</exclude-pattern>
-                <exclude-pattern>*\.template.php</exclude-pattern>
-                <exclude-pattern>*\.module.php</exclude-pattern>
-                <exclude-pattern>*.lib.php</exclude-pattern>
-                <exclude-pattern>*.help_tab*</exclude-pattern>
-                <exclude-pattern>*\.form.php</exclude-pattern>
-                <exclude-pattern>*\.gateway.php</exclude-pattern>
-                <exclude-pattern>*.pm.php</exclude-pattern>
-                <exclude-pattern>*.dmsstage.php</exclude-pattern>
-                <exclude-pattern>*.dms.php</exclude-pattern>
-                <exclude-pattern>*\.model.php</exclude-pattern>
+                <exclude-pattern>*\.class\.php</exclude-pattern>
+                <exclude-pattern>*\.core\.php</exclude-pattern>
+                <exclude-pattern>*\.template\.php</exclude-pattern>
+                <exclude-pattern>*\.module\.php</exclude-pattern>
+                <exclude-pattern>*\.lib\.php</exclude-pattern>
+                <exclude-pattern>*\.help_tab*</exclude-pattern>
+                <exclude-pattern>*\.form\.php</exclude-pattern>
+                <exclude-pattern>*\.gateway\.php</exclude-pattern>
+                <exclude-pattern>*\.pm\.php</exclude-pattern>
+                <exclude-pattern>*\.dmsstage\.php</exclude-pattern>
+                <exclude-pattern>*\.dms\.php</exclude-pattern>
+                <exclude-pattern>*\.model\.php</exclude-pattern>
                 <exclude-pattern>*/db_models/relations/*</exclude-pattern>
                 <exclude-pattern>*/db_models/fields/*</exclude-pattern>
                 <exclude-pattern>*/db_models/helpers/*</exclude-pattern>
-                <exclude-pattern>*.strategy.php</exclude-pattern>
-                <exclude-pattern>*\.helper.php</exclude-pattern>
-                <exclude-pattern>*\.interface.php</exclude-pattern>
-                <exclude-pattern>EE_Message_To_Generate.php</exclude-pattern>
-                <exclude-pattern>*\.error.php</exclude-pattern>
-                <exclude-pattern>*\.input.php</exclude-pattern>
-                <exclude-pattern>*\.shortcode.php</exclude-pattern>
-                <exclude-pattern>*\.widget.php</exclude-pattern>
-                <exclude-pattern>*.class_extension.php</exclude-pattern>
-                <exclude-pattern>*.class_ext.php</exclude-pattern>
-                <exclude-pattern>*.model_ext.php</exclude-pattern>
-                <exclude-pattern>*.model.ext.php</exclude-pattern>
+                <exclude-pattern>*\.strategy\.php</exclude-pattern>
+                <exclude-pattern>*\.helper\.php</exclude-pattern>
+                <exclude-pattern>*\.interface\.php</exclude-pattern>
+                <exclude-pattern>EE_Message_To_Generate\.php</exclude-pattern>
+                <exclude-pattern>*\.error\.php</exclude-pattern>
+                <exclude-pattern>*\.input\.php</exclude-pattern>
+                <exclude-pattern>*\.shortcode\.php</exclude-pattern>
+                <exclude-pattern>*\.widget\.php</exclude-pattern>
+                <exclude-pattern>*\.class_extension\.php</exclude-pattern>
+                <exclude-pattern>*\.class_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model_ext\.php</exclude-pattern>
+                <exclude-pattern>*\.model.ext\.php</exclude-pattern>
         </rule>
         <rule ref="WordPress.WP.I18n.MissingSingularPlaceholder">
-                <exclude-pattern>ee_migration_page.template.php</exclude-pattern>
-                <exclude-pattern>EED_Messages.module.php</exclude-pattern>
+                <exclude-pattern>ee_migration_page.template\.php</exclude-pattern>
+                <exclude-pattern>EED_Messages.module\.php</exclude-pattern>
         </rule>
         <rule ref="WordPress.WP.I18n.NonSingularStringLiteralText">
-                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_8.php</exclude-pattern>
+                <exclude-pattern>plugins/event-espresso-core/core/domain/deprecated/v4_8\.php</exclude-pattern>
         </rule>
 </ruleset>
