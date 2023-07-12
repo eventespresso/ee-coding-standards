@@ -2,7 +2,7 @@
 <ruleset name="EventEspresso Coding Standard">
         <description>The Coding standard for the Event Espresso Coding Standard itself.</description>
         <!-- Scan all files. -->
-        <file>.</file>
+        <file>.php</file>
         <!-- Exclude Composer vendor directory. -->
         <exclude-pattern>*/vendor/*</exclude-pattern>
         <!-- Only check PHP files. -->

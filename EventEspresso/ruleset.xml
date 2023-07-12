@@ -2,6 +2,7 @@
 <ruleset name="EventEspresso"
         namespace="EventEspressoCS\EventEspresso">
         <description>EventEspresso Coding Standards</description>
+        <file>.php</file>
         <!--
         #############################################################################
         SNIFF FOR PHP CROSS-VERSION COMPATIBILITY
@@ -57,22 +58,22 @@
         #############################################################################
         -->
         <!-- global exclusions: No coverage at all in these directories/files -->
-        <exclude-pattern>tests/*</exclude-pattern>
-        <exclude-pattern>vendor/*</exclude-pattern>
-        <exclude-pattern>node_modules/*</exclude-pattern>
-        <exclude-pattern>languages/*</exclude-pattern>
-        <exclude-pattern>assets/*</exclude-pattern>
-        <exclude-pattern>bin/*</exclude-pattern>
-        <exclude-pattern>docs/*</exclude-pattern>
-        <exclude-pattern>eslint/*</exclude-pattern>
-        <exclude-pattern>acceptance_tests/*</exclude-pattern>
-        <exclude-pattern>third_party_libs/</exclude-pattern>
-        <exclude-pattern>wordpress-shims\.php</exclude-pattern>
-        <exclude-pattern>invoice_functions\.php</exclude-pattern>
-        <exclude-pattern>wp-assets/*</exclude-pattern>
-        <exclude-pattern>template_tags\.php</exclude-pattern>
-        <exclude-pattern>Espresso_Arabica_2014/*</exclude-pattern>
-        <exclude-pattern>EE_Deprecated.core\.php</exclude-pattern>
+        <exclude-pattern>*/tests/*</exclude-pattern>
+        <exclude-pattern>*/vendor/*</exclude-pattern>
+        <exclude-pattern>*/node_modules/*</exclude-pattern>
+        <exclude-pattern>*/languages/*</exclude-pattern>
+        <exclude-pattern>*/assets/*</exclude-pattern>
+        <exclude-pattern>*/bin/*</exclude-pattern>
+        <exclude-pattern>*/docs/*</exclude-pattern>
+        <exclude-pattern>*/eslint/*</exclude-pattern>
+        <exclude-pattern>*/acceptance_tests/*</exclude-pattern>
+        <exclude-pattern>*/third_party_libs/*</exclude-pattern>
+        <exclude-pattern>*/wordpress-shims\.php</exclude-pattern>
+        <exclude-pattern>*/invoice_functions\.php</exclude-pattern>
+        <exclude-pattern>*/wp-assets/*</exclude-pattern>
+        <exclude-pattern>*/template_tags\.php</exclude-pattern>
+        <exclude-pattern>*/Espresso_Arabica_2014/*</exclude-pattern>
+        <exclude-pattern>*/EE_Deprecated.core\.php</exclude-pattern>
         <!-- Event Espresso specific rulesets -->
         <rule ref="Generic.Formatting.SpaceAfterCast" />
         <!-- Warn about lines longer than 120 chars, and never error. -->
