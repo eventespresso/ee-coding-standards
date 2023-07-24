@@ -10,9 +10,9 @@
                 value="php" />
         <!-- Show progress, show the error codes for each message (source). -->
         <arg value="sp" />
-        <!-- EventEspresso supports PHP 7.1 or higher. -->
+        <!-- EventEspresso supports PHP 8.1 or higher. -->
         <config name="testVersion"
-                value="7.4-" />
+                value="8.1-" />
         <rule ref="EventEspresso">
                 <!-- Conflicts with PHPCS autoloading of sniffs. -->
                 <exclude name="EventEspresso.Files.FileName" />

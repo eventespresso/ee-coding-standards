@@ -12,7 +12,7 @@
         <config name="installed_paths"
                 value="vendor/wp-coding-standards/wpcs,vendor/phpcompatibility/php-compatibility" />
         <config name="testVersion"
-                value="7.4-" />
+                value="8.1-" />
         <!-- Tabs should represent 4 spaces. -->
         <arg name="tab-width"
                 value="4" />
