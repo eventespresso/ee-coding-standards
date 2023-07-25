@@ -2,7 +2,6 @@
 <ruleset name="EventEspresso"
         namespace="EventEspressoCS\EventEspresso">
         <description>EventEspresso Coding Standards</description>
-        <file>.php</file>
         <!--
         #############################################################################
         SNIFF FOR PHP CROSS-VERSION COMPATIBILITY
